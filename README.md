@@ -1,12 +1,12 @@
 # cover parser
 For bangyen's very cool research project
 
-# dependencies
+## dependencies
 - python virtual environment recommended
 - requests `python -m pip install requests`
 - beautiful soup `python -m pip install beautifulsoup4`
 
-# setup and usage
+## setup and usage
 if using virtual env:
 ```
 cd *into root directory*
@@ -18,7 +18,7 @@ cd *into root directory*
 py parseCoverHTML.py > output.html
 ```
 
-# output
+## output
 `output.html` contains output of running `parseCoverHTML.py`.
 This file contains 3 things (in this order):
 1. test to row: mapping of tests to row indices
